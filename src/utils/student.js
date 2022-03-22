@@ -1,9 +1,9 @@
 import axios from "axios";
 
 export function register(studentData) {
-  axios.post(
+  return axios.post(
     "https://her-shreersc-express-server.herokuapp.com/dev/admin/adminregisternewstudent",
-    studentData,
+    new URLSearchParams(studentData),
     {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",

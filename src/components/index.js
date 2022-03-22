@@ -2,7 +2,7 @@ import { FaCircleNotch } from "react-icons/fa";
 
 export function Page({ children, className = "", ...props }) {
   return (
-    <div className={`h-screen ${className ? className : ""}`} {...props}>
+    <div className={`min-h-screen ${className ? className : ""}`} {...props}>
       {children}
     </div>
   );
