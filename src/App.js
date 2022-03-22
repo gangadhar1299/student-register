@@ -29,7 +29,7 @@ function App() {
     <Page className="flex gap-3 md:gap-40 flex-col md:flex-row">
       <div className="h-28 md:h-auto w-full md:w-3/12 bg-gray-400" />
       <div className="flex-1 flex place-items-center justify-between pb-3">
-        <form className="m-auto md:m-0 md:w-96" onSubmit={handleSubmit}>
+        <form className="m-auto p-10 md:p-0 md:m-0 md:w-96" onSubmit={handleSubmit}>
           <h1 className="my-10 text-2xl ">Register a new Student</h1>
           <h2 className="md:mt-12 mt-6 text-lg">Personal Details:</h2>
           <div className="flex flex-col gap-3 mt-6 w-full">
